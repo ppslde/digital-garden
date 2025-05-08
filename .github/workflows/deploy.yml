@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -40,6 +44,12 @@ jobs:
 
           # Copy the entire content directory from digitalgarden to quartz
           cp -r digitalgarden/content/* quartz/content/
+
+      - name: Copy configuration files
+        run: |
+          # Directly copy configuration files from digitalgarden to quartz
+          cp digitalgarden/quartz.config.ts quartz/
+          cp digitalgarden/quartz.layout.ts quartz/
 
       - name: Build Quartz
         working-directory: ./quartz
