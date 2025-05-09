@@ -21,6 +21,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
+      cdnCaching: true,
       typography: {
         header: "JetBrains Mono",
         body: "JetBrains Mono",
