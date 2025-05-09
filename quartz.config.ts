@@ -18,10 +18,9 @@ const config: QuartzConfig = {
     locale: "de-DE",
     baseUrl: "https://ppslde.github.io/digital-garden",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: true,
       typography: {
         header: "JetBrains Mono",
         body: "JetBrains Mono",
