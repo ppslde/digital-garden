@@ -1,35 +1,17 @@
 ---
-title: Welcome to Quartz
+title: Welcome - you are entering my digital garden
+description: This is the digital garden of ppslde. A custom space for loosely organized thoughts and ideas.
+aliases: [home, index]
+tags: [home, index]
+date: 2025-05-09
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+> **Who always does what he is already able to do, always remains what he already is.** (Henry Ford)
 
-```csharp
-// This is a code block
-Console.WriteLine("Hello, world!");
-```
+Hi my name is Danny and I'm a software engineer. I have a passion for technology and enjoy exploring new ideas and concepts.
+This is a loose collection of notes, thoughts, and ideas that I find interesting or useful.
+I hope you find something here that resonates with you.
 
-```python
-# This is a code block
-print("Hello, world!")
-```
+Für alle die der Aufbau meiner [[quartz-infrastructure]] interessiert, habe ich einige Informationen und Ressourcen zusammengestellt.
 
-```javascript
-// This is a code block
-console.log("Hello, world!");
-```
-
-```html
-<!-- This is a code block -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hello, world!</title>
-</head>
-<body>
-    <h1>Hello, world!</h1>
-</body>
-</html>
-```
-#tag1 #tag2 #tag3
+<table class="boxed"><tr><td>Text</td></tr></table>
