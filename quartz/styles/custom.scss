@@ -11,6 +11,11 @@ body {
   font-size: medium;
 }
 
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/static/JetBrainsMono.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 pre:has(> code) {
   border-radius: 0px;
 }
