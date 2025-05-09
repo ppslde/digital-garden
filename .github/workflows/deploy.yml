@@ -50,6 +50,8 @@ jobs:
           # Directly copy configuration files from digitalgarden to quartz
           cp digitalgarden/quartz.config.ts quartz/
           cp digitalgarden/quartz.layout.ts quartz/
+          cp -rf digitalgarden/quartz/styles/* quartz/quartz/styles/
+          cp -rf digitalgarden/quartz/static/* quartz/quartz/static/
 
       - name: Build Quartz
         working-directory: ./quartz
