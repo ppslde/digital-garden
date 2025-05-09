@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "de-DE",
-    baseUrl: "ppslde.github.io",
+    baseUrl: "ppslde.github.io/digital-garden",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
