@@ -1,5 +1,5 @@
 ---
-title: Useful extensions in VS2022
+title: useful extensions in VS2022
 ---
 
 These Extensions I use with Visual Studio
