@@ -25,3 +25,20 @@ where key = 1
 > | id | content | decoded_content |
 > |----------|----------|----------|
 > | 1  | \x48616c6c6f2057656c74  | Hallo Welt |
+
+
+## Adding different schemas to search_path in #postgres
+
+View current search path entries
+```sql
+SHOW search_path
+```
+
+Set search path
+```sql
+ALTER DATABASE <my-databse> SET search_path TO <my-schema-1>,<my-schema-2>,<my-schema-n>,temp,public
+```
+or
+```sql
+SET search_path TO <my-schema-1>,<my-schema-2>,<my-schema-n>,temp,public
+```
